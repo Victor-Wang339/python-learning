@@ -24,13 +24,11 @@ print("是否被直接运行:", __name__ == "__main__")
 
 print("a", "b", sep="-")                    
 print("a", "b", end="")                      
-
-
 print("A", "B", "C", sep="|", end="\n")      
 
 if __name__ == "__main__":                   
     print("主程序入口被执行了")                       
-    print("这是入门项目最常见的写法")                    
+                 
 
 
 
