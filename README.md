@@ -27,7 +27,7 @@ Status: `Done` / `In progress` / `Planned`
 
 ## Environment
 
-- Python 3.x
+- Python 3.13
 - VS Code + Python extension
 - Windows 11
 
