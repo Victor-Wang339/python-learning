@@ -1,10 +1,10 @@
 print("Hello, Python!")
-print("我是一名python初学者")                     
+print("I am a beginner in Python.")                     
 print(1+2)
 
-print("--- 分隔线 ---")         
+print("--- line between ---")         
 
-print("年龄:", 18, "岁")           
+print("age:", 18, "years old")           
 
 print()
 
@@ -18,16 +18,16 @@ print(None)
 
 import sys    
 
-print("当前 Python 版本:", sys.version.split()[0]) 
-print("当前脚本路径:", __file__)                   
-print("是否被直接运行:", __name__ == "__main__")    
+print("The current version of Python:", sys.version.split()[0]) 
+print("Current script path:", __file__)                   
+print("Was it directly executed:", __name__ == "__main__")    
 
 print("a", "b", sep="-")                    
 print("a", "b", end="")                      
 print("A", "B", "C", sep="|", end="\n")      
 
 if __name__ == "__main__":                   
-    print("主程序入口被执行了")                       
+    print("The main program entry has been executed.")                       
                  
 
 
@@ -35,16 +35,16 @@ if __name__ == "__main__":
 from datetime import date   
 
 WIDTH = 40        
-name = "张三"        
-major = "人工智能"            
-goal = "精通python"
+name = "Victor-Wang339"        
+major = "artificial intelligence"            
+goal = "Proficient in Python"
 today = date.today()        
 
 print("=" * WIDTH)          
-print("|" + "个 人 名 片".center(WIDTH - 2) + "|")
+print("|" + "Personal Profile".center(WIDTH - 2) + "|")
 print("=" * WIDTH)            
-print("|" + f"姓名：{name}".ljust(WIDTH - 2) + "|")  
-print("|" + f"专业：{major}".ljust(WIDTH - 2) + "|") 
-print("|" + f"目标：{goal}".ljust(WIDTH - 2) + "|")  
-print("|" + f"日期：{today}".ljust(WIDTH - 2) + "|")  
+print("|" + f"name：{name}".ljust(WIDTH - 2) + "|")  
+print("|" + f"major：{major}".ljust(WIDTH - 2) + "|") 
+print("|" + f"goal：{goal}".ljust(WIDTH - 2) + "|")  
+print("|" + f"date：{today}".ljust(WIDTH - 2) + "|")  
 print("=" * WIDTH)            
