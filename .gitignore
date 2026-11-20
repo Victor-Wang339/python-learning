@@ -1,1 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — never commit these
+.env
+!.env.example
+
+# Editors
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Data and output files (adjust to your own patterns)
+*.csv
+*.log

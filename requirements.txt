@@ -1,0 +1,4 @@
+# Standard library only for now — nothing to install.
+# Add packages here as chapters need them, e.g.:
+# requests>=2.32
+# numpy>=2.0
